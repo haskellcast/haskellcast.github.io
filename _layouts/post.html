@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article>
+    <header>
+        <h2>{{ page.title }}</h2>
+
+        <p>Recorded {{ page.date|date: "%Y-%m-%d" }}</p>
+    </header>
+    {% if page.podcast %}
+        <div class="podcast-player">
+            <audio controls preload="none">
+                <source src="{{ page.podcast.file }}" />
+            </audio>
+            <a href="{{ page.podcast.file }}">Download: MP3</a>
+        </div>
+    {% endif %}
+    {{ content }}
+    <footer>
+        {% include disqus.html %}
+    </footer>
+</article>

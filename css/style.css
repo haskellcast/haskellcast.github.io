@@ -1,0 +1,144 @@
+html {
+  font-size: 14px;
+  line-height: 1.5em;
+  background-color: #444444;
+  font-family: Helvetica, Arial, sans-serif;
+}
+body {
+  width: 800px;
+  height: 100%;
+  padding: 0 4em 4em 4em;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  color: #444444;
+}
+a {
+  text-decoration: none;
+}
+.edgeShadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.masthead {
+  position: relative;
+  height: 6em;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.masthead .title,
+.masthead nav {
+  position: absolute;
+  top: 1.5em;
+  font-weight: 700;
+}
+.masthead h1 {
+  margin: 0;
+  font-size: 2.5em;
+  line-height: 1em;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);
+}
+.masthead h1 a {
+  color: #444444;
+}
+.masthead .title {
+  left: 2em;
+}
+.sidebar {
+  width: 190px;
+  float: right;
+  margin-top: 1em;
+}
+.sidebar nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #444444;
+}
+.sidebar nav ul li {
+  line-height: 2em;
+}
+.sidebar nav ul li a {
+  font-weight: 700;
+}
+.sidebar nav ul li img {
+  vertical-align: middle;
+}
+.sidebar img.logo {
+  margin-top: 1em;
+}
+.sidebar #subscribe li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.sidebar #hosts a {
+  float: left;
+  line-height: 14px;
+}
+.sidebar #hosts a:last-child {
+  margin-left: 10px;
+  text-align: right;
+}
+.main article.teaser {
+  margin-top: 3em;
+}
+.main article.teaser:first-child {
+  margin-top: 0;
+}
+.main article img {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 1em solid #ffffff;
+  box-sizing: border-box;
+}
+.main article footer {
+  margin-top: 2em;
+}
+.main article footer .FlattrButton {
+  margin-bottom: 2em;
+}
+.main article section h1 {
+  font-size: 1.3em;
+}
+.main article section h2 {
+  font-size: 1.1em;
+}
+.main article section h3 {
+  font-size: 1em;
+}
+.main article section h4 {
+  font-size: 1em;
+}
+.main {
+  width: 590px;
+  float: left;
+  margin-top: 1em;
+}
+.pagination {
+  margin-top: 3em;
+}
+.pagination .next:before {
+  content: " - ";
+}
+.pagination .previous:after {
+  content: " - ";
+}
+.podcast-player {
+  margin: 2em 0;
+}
+.edgeShadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.page-footer {
+  clear: both;
+  font-size: 0.7em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: right;
+  color: #777777;
+}
+.page-footer .contact-link:before {
+  content: " - ";
+}

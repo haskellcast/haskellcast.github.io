@@ -1,0 +1,48 @@
+---
+subnavigation:
+- link:
+  title: RSS Feed
+  url: /feed.xml
+  icon: rss-icon.png
+- link:
+  title: iTunes
+  url: https://itunes.apple.com/us/podcast/the-haskell-cast/id694047404
+  icon: itunes-icon.png
+---
+<!doctype html>
+<html>
+    <head>
+        {% include meta.html %}
+    </head>
+    <body>
+        {% include header.html %}
+
+        <div class="sidebar">
+            <nav class="subnav" id="subscribe">
+	      <h2>Subscribe</h2>
+                {% if page.subnavigation %}
+                    <ul>
+                    {% for link in page.subnavigation %}
+                    <li><a href="{{link.url}}"><img src="/img/{{link.icon}}">
+                        {{link.title}}
+                    </a></li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            </nav>
+	    <a class="logo" href="/"><img class="logo" src="/img/haskellcast-logo.jpg" width="190" height="190"></a>
+	    <nav class="subnav" id="hosts">
+              <h2>Your Hosts</h2>
+	      <a href="https://twitter.com/ReinH"><img src="http://www.gravatar.com/avatar/77d5386c39c011d59cc13808f8a5156b?s=90" width="90" height="90"><br>Rein Henrichs</a>
+	      <a href="https://twitter.com/jekor"><img src="http://www.gravatar.com/avatar/4f4283e61ace51643f3e1b9295dfe7c4?s=90" width="90" height="90"><br>Chris Forno</a>
+	    </nav>
+        </div>
+
+        <div class="main">
+            {{ content }}
+        </div>
+
+        {% include footer.html %}
+	<div style="clear: both"></div>
+    </body>
+</html>

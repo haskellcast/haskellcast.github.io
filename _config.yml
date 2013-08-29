@@ -1,0 +1,42 @@
+title: The Haskell Cast
+baseurl: /
+url: http://www.haskellcast.com
+
+author:
+  name: The Haskell Cast
+  url: /
+
+description: Listen to regular interviews with the Haskell community. The podcast covers news, libraries, and whatever other topics we wander onto with our guests.
+keywords:
+- Haskell
+- Programming
+- Podcast
+- Interview
+- Functional
+
+podcast:
+  owner:
+    name: The Haskell Cast
+    email: haskellcast@haskellcast.com
+  explicit: "no"
+  image: http://www.haskellcast.com/img/haskellcast-logo.jpg
+  category: Technology
+  subcategory: Tech News
+  subtitle: Interviews and Insights from the Haskell Community
+  defaultFileType: audio/mpeg
+  year: 2013
+
+paginate: 10
+
+source: .
+destination: ./_site
+
+future: false
+permalink: /episode/:title
+markdown: rdiscount
+
+exclude:
+- README.markdown
+
+disqus:
+  shortname: haskellcast
