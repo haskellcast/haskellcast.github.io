@@ -39,6 +39,7 @@ layout: none
 				<guid isPermaLink="true">{{ post_url }}</guid>
 
                 {% if post.podcast %}
+
                 <enclosure url="https://api.soundcloud.com/tracks/{{post.soundcloud.track}}/download?secret_token={{post.soundcloud.token}}&amp;client_id=0f8fdbbaa21a9bd18210986a7dc2d72c" type="{{site.podcast.defaultFileType}}" length="{{post.podcast.filesize}}" />
 
                 <itunes:author>{{site.podcast.owner.email}}</itunes:author>
