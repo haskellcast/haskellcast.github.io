@@ -31,11 +31,10 @@ links:
 - https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study
 - http://www.computingatschool.org.uk/
 podcast:
+  file: http://feeds.soundcloud.com/stream/117465203-haskellcast-003-simon-peyton-jones-on-ghc.mp3
   length: 1:04:37
   filesize: 31048093
-soundcloud:
-  track: 117465203
-  token: 
+soundcloud: 117465203
 ---
 Simon Peyton Jones joins us to discuss recent developments in GHC, parallel programming, and computer science education. We start by discussing some upcoming changes to Cabal and the module system and then look at recent developments in parallelizing Haskell programs. Finally, Simon shares what he's been working on recently: a national curriculum of computing in England and the Computing at School (CAS) Working Group.
 

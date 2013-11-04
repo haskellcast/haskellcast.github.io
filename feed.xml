@@ -8,25 +8,25 @@ layout: none
         <description>{{ site.description }}</description>
         <link>{{ site.url }}</link>
         <language>en-us</language>
-        <copyright>Copyright {{site.podcast.year}}</copyright>
-        <webMaster>{{site.podcast.owner.email}} ({{site.podcast.owner.name}})</webMaster>
+        <copyright>Copyright {{ site.podcast.year }}</copyright>
+        <webMaster>{{ site.podcast.owner.email }} ({{ site.podcast.owner.name }})</webMaster>
         <image>
-            <url>{{site.podcast.image}}</url>
-            <title>{{site.title}}</title>
-            <link>{{site.url}}</link>
+            <url>{{ site.podcast.image }}</url>
+            <title>{{ site.title }}</title>
+            <link>{{ site.url }}</link>
         </image>
 
         <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
 
-        <itunes:author>{{site.url}}</itunes:author>
-        <itunes:subtitle>{{site.podcast.subtitle}}</itunes:subtitle>
+        <itunes:author>{{ site.url }}</itunes:author>
+        <itunes:subtitle>{{ site.podcast.subtitle }}</itunes:subtitle>
         <itunes:owner>
-            <itunes:name>{{site.podcast.owner.name}}</itunes:name>
-            <itunes:email>{{site.podcast.owner.email}}</itunes:email>
+            <itunes:name>{{ site.podcast.owner.name }}</itunes:name>
+            <itunes:email>{{ site.podcast.owner.email }}</itunes:email>
         </itunes:owner>
-        <itunes:explicit>{{site.podcast.explicit}}</itunes:explicit>
+        <itunes:explicit>{{ site.podcast.explicit }}</itunes:explicit>
 
-	<itunes:category text="{{site.podcast.category}}"><itunes:category text="{{site.podcast.subcategory}}" /></itunes:category>
+	<itunes:category text="{{ site.podcast.category }}"><itunes:category text="{{ site.podcast.subcategory }}" /></itunes:category>
 
 		{% for post in site.posts %}
 			<item>
@@ -40,11 +40,11 @@ layout: none
 
                 {% if post.podcast %}
 
-                <enclosure url="http://api.soundcloud.com/tracks/{{post.soundcloud.track}}/download?secret_token={{post.soundcloud.token}}&amp;client_id=0f8fdbbaa21a9bd18210986a7dc2d72c" type="{{site.podcast.defaultFileType}}" length="{{post.podcast.filesize}}" />
+                <enclosure url="{{ post.podcast.file }}" type="{{ site.podcast.defaultFileType }}" length="{{ post.podcast.filesize }}" />
 
-                <itunes:author>{{site.podcast.owner.email}}</itunes:author>
+                <itunes:author>{{ site.podcast.owner.email }}</itunes:author>
                 <itunes:summary><![CDATA[{{ post.excerpt | markdownify }}]]></itunes:summary>
-                <itunes:duration>{{post.podcast.length}}</itunes:duration>
+                <itunes:duration>{{ post.podcast.length }}</itunes:duration>
                 {% endif %}
 			</item>
 		{% endfor %}

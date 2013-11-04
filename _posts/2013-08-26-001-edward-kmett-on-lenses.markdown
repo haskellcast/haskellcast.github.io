@@ -19,12 +19,10 @@ links:
 - http://www.youtube.com/user/edwardkmett
 - http://comonad.com/
 podcast:
-  file: http://files.haskellcast.com/podcast/haskellcast-001.mp3
+  file: http://feeds.soundcloud.com/stream/111774970-haskellcast-001-edward-kmett-on-lenses.mp3
   length: 1:04:08
   filesize: 30815754
 youtube: 6GNDzrgFhGM
-soundcloud:
-  track: 111774970
-  token: s-blRvJ
+soundcloud: 111774970
 ---
 Edward Kmett joins us to talk about lenses, comonads, and the future of the Haskell core libraries. He also shares with us how he discovered Haskell, his academic background, and advice for new Haskell developers being exposed to the math concepts inside of his libraries for the first time.

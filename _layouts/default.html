@@ -23,7 +23,7 @@ subnavigation:
                 {% if page.subnavigation %}
                     <ul>
                     {% for link in page.subnavigation %}
-                    <li><a href="{{link.url}}"><img src="/img/{{link.icon}}">
+                    <li><a href="{{ link.url }}"><img src="/img/{{ link.icon }}">
                         {{link.title}}
                     </a></li>
                     {% endfor %}

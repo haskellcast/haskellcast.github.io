@@ -18,12 +18,10 @@ tags:
 links:
 - http://donsbot.wordpress.com/
 podcast:
-  file: http://files.haskellcast.com/podcast/haskellcast-002.mp3
+  file: http://feeds.soundcloud.com/stream/111776994-haskellcast-002-don-stewart-on-real-world-haskell.mp3
   length: 1:06:59
   filesize: 32184315
 youtube: 4YfkwfZ7AV4
-soundcloud:
-  track: 111776994
-  token: s-yJuWh
+soundcloud: 111776994
 ---
 Don Stewart, co-author of Real World Haskell and author of many Haskell Stack Overflow answers, joins us to discuss working with Haskell at large scale: how to organize, deploy, and test more than 1 million lines of Haskell code. He also shares some insights on hiring, training, and working with a large team of Haskell developers. To start the episode, we discuss performance and optimization of Haskell programs.
