@@ -1,7 +1,7 @@
 --- 
 title: Episode 9 - Conal Elliott on FRP and Denotational Design
 published: true
-recorded: 2015-11-16
+recorded: 2014-11-16
 layout: post
 tags:
 - Haskell
