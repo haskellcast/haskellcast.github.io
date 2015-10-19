@@ -17,6 +17,7 @@ tags:
 - wreq
 links:
 - http://www.serpentine.com/criterion/
+- http://www.scs.stanford.edu/11au-cs240h/
 - https://github.com/bos/wreq
 podcast:
   file: http://feeds.soundcloud.com/stream/229056259-haskellcast-the-haskell-cast-10-bryan-osullivan.mp3
