@@ -23,6 +23,16 @@ podcast:
   length: 1:04:08
   filesize: 30815754
 youtube: 6GNDzrgFhGM
-soundcloud: 111774970
+guests:
+- name: Edward Kmett
+  twitter: kmett
+  gravatar: 9c51a8b8afa2366a2ef4650c411f187a
+hosts:
+- name: Rein Henrichs
+  twitter: ReinH
+  gravatar: 77d5386c39c011d59cc13808f8a5156b
+- name: Chris Forno
+  twitter: jekor
+  gravatar: 4f4283e61ace51643f3e1b9295dfe7c4
 ---
 Edward Kmett joins us to talk about lenses, comonads, and the future of the Haskell core libraries. He also shares with us how he discovered Haskell, his academic background, and advice for new Haskell developers being exposed to the math concepts inside of his libraries for the first time.

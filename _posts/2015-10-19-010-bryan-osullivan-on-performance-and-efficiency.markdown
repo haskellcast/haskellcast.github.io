@@ -23,6 +23,16 @@ podcast:
   file: http://feeds.soundcloud.com/stream/229056259-haskellcast-the-haskell-cast-10-bryan-osullivan.mp3
   length: 00:51:34
   filesize: 24780355
-soundcloud: 229056259
+guests:
+- name: Bryan O'Sullivan
+  twitter: bos31337
+  gravatar: 76d19f57f5d4c2d36f1f417c5ac5beae
+hosts:
+- name: Rein Henrichs
+  twitter: ReinH
+  gravatar: 77d5386c39c011d59cc13808f8a5156b
+- name: Chris Forno
+  twitter: jekor
+  gravatar: 4f4283e61ace51643f3e1b9295dfe7c4
 ---
 Bryan O'Sullivan shares his experience helping make developers more efficient, both inside of Facebook as Director of Developer Efficiency and with his various Haskell libraries, some of which you probably know and use already: aeson, attoparsec, criterion, statistics, and text (to name a few). We speak about performance and optimization of Haskell programs and where documentation for "Real World" Haskell development should go from here. Talking with Bryan also reveals how far you can go with Haskell without being overly concerned about category theory and the other math behind the language and libraries.

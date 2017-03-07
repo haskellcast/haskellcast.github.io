@@ -7,8 +7,10 @@ layout: default
 
         <p>Recorded: {{ page.recorded|date: "%Y-%m-%d" }}, Published: {{ page.date|date: "%Y-%m-%d" }}</p>
     </header>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F{{ page.soundcloud }}"></iframe>
-<noscript><a href="{{ page.podcast.file }}">Download MP3</a></noscript>
+    <div class="player">
+      <audio src="{{ page.podcast.file }}" preload="none" controls></audio>
+      <a href="{{ page.podcast.file }}">Download MP3</a>
+    </div>
 
     {{ content }}
 

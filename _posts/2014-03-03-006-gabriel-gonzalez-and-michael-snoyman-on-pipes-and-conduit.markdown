@@ -25,6 +25,18 @@ podcast:
   length: 1:02:24
   filesize: 29985528
 youtube: Qn2Oc4vWoGg
-soundcloud: 137515344
+guests:
+- name: Gabriel Gonzalez
+  twitter: GabrielG439
+- name: Michael Snoyman
+  twitter: snoyberg
+  gravatar: 71596bb1ca3ba3aa4400c3f407baec9f
+hosts:
+- name: Rein Henrichs
+  twitter: ReinH
+  gravatar: 77d5386c39c011d59cc13808f8a5156b
+- name: Chris Forno
+  twitter: jekor
+  gravatar: 4f4283e61ace51643f3e1b9295dfe7c4
 ---
 Gabriel Gonzalez and Michael Snoyman join us to discuss their solutions to the problems with lazy IO. Gabriel's pipes library focuses on equational reasoning while Michael's conduit library promises deterministic resource handling. Gabriel and Michael have already debated the merits and disadvantages of each other's libraries on their blogs. Now we get them onto the podcast to explain the differences to us and talk about where they're going in the future (and the possibility of converging on a single solution).

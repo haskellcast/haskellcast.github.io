@@ -26,17 +26,30 @@ podcast:
   defaultFileType: audio/mpeg
   year: 2013
 
-paginate: 10
+gems: [jekyll-paginate]
+
+paginate: 20
 
 source: .
 destination: ./_site
 
 future: false
 permalink: /episode/:title
-markdown: rdiscount
 
 exclude:
 - README.markdown
 
 disqus:
   shortname: haskellcast
+
+defaults:
+- scope:
+    path: ""
+  values:
+    hosts:
+    - name: Chris Forno
+      twitter: jekor
+      gravatar: 4f4283e61ace51643f3e1b9295dfe7c4
+    - name: Alp Mestanogullari
+      twitter: alpmestan
+      gravatar: 11ba6dfa8271fb1cd0c475a2c0626853

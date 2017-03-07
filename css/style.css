@@ -5,7 +5,7 @@ html {
   font-family: Helvetica, Arial, sans-serif;
 }
 body {
-  width: 800px;
+  width: 66rem;
   height: 100%;
   padding: 0 4em 4em 4em;
   margin: 0 auto;
@@ -45,7 +45,6 @@ a {
   left: 2em;
 }
 .sidebar {
-  width: 190px;
   float: right;
   margin-top: 1em;
 }
@@ -65,11 +64,14 @@ a {
   vertical-align: middle;
 }
 .sidebar img.logo {
-  margin-top: 1em;
+  width: 16em;
+  margin-top: 1.5em;
+}
+.sidebar #subscribe ul {
+  display: flex;
 }
 .sidebar #subscribe li {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-right: 1rem;
 }
 .sidebar #hosts a {
   float: left;
@@ -78,6 +80,9 @@ a {
 .sidebar #hosts a:last-child {
   margin-left: 10px;
   text-align: right;
+}
+.sidebar #hosts img {
+  width: 8em;
 }
 .main article.teaser {
   margin-top: 3em;
@@ -112,7 +117,7 @@ a {
   font-size: 1em;
 }
 .main {
-  width: 590px;
+  width: 45rem;
   float: left;
   margin-top: 1em;
 }
@@ -141,4 +146,8 @@ a {
 }
 .page-footer .contact-link:before {
   content: " - ";
+}
+.player {
+    display: flex;
+    align-items: center;
 }

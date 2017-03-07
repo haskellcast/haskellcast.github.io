@@ -34,7 +34,17 @@ podcast:
   file: http://feeds.soundcloud.com/stream/117465203-haskellcast-003-simon-peyton-jones-on-ghc.mp3
   length: 1:04:37
   filesize: 31048093
-soundcloud: 117465203
+guests:
+- name: Simon Peyton Jones
+  twitter: simonpj0
+  gravatar: c7da8df7d8cb6a6d1b9ad052a20eb54d
+hosts:
+- name: Rein Henrichs
+  twitter: ReinH
+  gravatar: 77d5386c39c011d59cc13808f8a5156b
+- name: Chris Forno
+  twitter: jekor
+  gravatar: 4f4283e61ace51643f3e1b9295dfe7c4
 ---
 Simon Peyton Jones joins us to discuss recent developments in GHC, parallel programming, and computer science education. We start by discussing some upcoming changes to Cabal and the module system and then look at recent developments in parallelizing Haskell programs. Finally, Simon shares what he's been working on recently: a national curriculum of computing in England and the Computing at School (CAS) Working Group.
 

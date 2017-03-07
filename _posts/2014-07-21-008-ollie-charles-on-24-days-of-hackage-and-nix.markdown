@@ -29,7 +29,17 @@ podcast:
   file: http://feeds.soundcloud.com/stream/159669156-haskellcast-the-haskell-cast-8-ollie.mp3
   length: 1:06:37
   filesize: 32007378
-soundcloud: 159669156
+guests:
+- name: Ollie Charles
+  twitter: acid2
+  gravatar: 0d4a7e6c8edd88e835508df8397592e5
+hosts:
+- name: Rein Henrichs
+  twitter: ReinH
+  gravatar: 77d5386c39c011d59cc13808f8a5156b
+- name: Chris Forno
+  twitter: jekor
+  gravatar: 4f4283e61ace51643f3e1b9295dfe7c4
 ---
 Ollie Charles, author of 24 Days of Hackage (and a number of Haskell libraries), gives us his perspectives on Haskell libraries and how they relate to Perl's CPAN. He shares how he began his transition from Perl to Haskell while working for MusicBrainz and how he came to work full-time on Haskell at Fynder. (Listen closely if you've wanted to write Haskell in your non-Haskell job.) We also chat briefly about developing in Haskell with Nix and a different take on equational reasoning.
 

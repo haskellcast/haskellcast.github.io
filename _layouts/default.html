@@ -1,13 +1,9 @@
 ---
-subnavigation:
-- link:
-  title: RSS Feed
-  url: /feed.xml
-  icon: rss-icon.png
-- link:
-  title: iTunes
-  url: https://itunes.apple.com/us/podcast/the-haskell-cast/id694047404
-  icon: itunes-icon.png
+subscriptions:
+- url: /feed.xml
+  icon: rss.svg
+- url: https://itunes.apple.com/us/podcast/the-haskell-cast/id694047404
+  icon: itunes.svg
 ---
 <!doctype html>
 <html>
@@ -20,21 +16,21 @@ subnavigation:
         <div class="sidebar">
             <nav class="subnav" id="subscribe">
 	      <h2>Subscribe</h2>
-                {% if page.subnavigation %}
+                {% if layout.subscriptions %}
                     <ul>
-                    {% for link in page.subnavigation %}
-                    <li><a href="{{ link.url }}"><img src="/img/{{ link.icon }}">
-                        {{link.title}}
+                    {% for link in layout.subscriptions %}
+                    <li><a href="{{ link.url }}"><img src="/img/{{ link.icon }}" alt="{{ link.title }}">
                     </a></li>
                     {% endfor %}
                     </ul>
                 {% endif %}
             </nav>
-	    <a class="logo" href="/"><img class="logo" src="/img/haskellcast-logo.jpg" width="190" height="190"></a>
+	    <a class="logo" href="/"><img class="logo" src="/img/haskellcast-logo.jpg"></a>
 	    <nav class="subnav" id="hosts">
               <h2>Your Hosts</h2>
-	      <a href="https://twitter.com/ReinH"><img src="http://www.gravatar.com/avatar/77d5386c39c011d59cc13808f8a5156b?s=90" width="90" height="90"><br>Rein Henrichs</a>
-	      <a href="https://twitter.com/jekor"><img src="http://www.gravatar.com/avatar/4f4283e61ace51643f3e1b9295dfe7c4?s=90" width="90" height="90"><br>Chris Forno</a>
+              {% for host in page.hosts %}
+	      <a href="https://twitter.com/{{ host.twitter }}"><img src="http://www.gravatar.com/avatar/{{ host.gravatar }}?s=160"><br>{{ host.name }}</a>
+              {% endfor %}
 	    </nav>
         </div>
 
