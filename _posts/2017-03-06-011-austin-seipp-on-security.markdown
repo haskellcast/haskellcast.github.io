@@ -1,7 +1,7 @@
 --- 
 title: Episode 11 - Austin Seipp on Security
 published: true
-recorded: 2017-03-06
+recorded: 2017-01-16
 layout: post
 tags:
 - Haskell
