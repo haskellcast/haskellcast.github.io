@@ -22,7 +22,7 @@ links:
 - https://hackage.haskell.org/package/cryptonite
 - https://www.schoolofhaskell.com/user/thoughtpolice/using-reflection
 podcast:
-  file: https://f001.backblazeb2.com/file/haskellcast/haskellcast-011.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-011.mp3
   length: 00:51:34
   filesize: 24780355
 guests:
