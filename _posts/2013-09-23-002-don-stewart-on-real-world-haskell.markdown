@@ -18,7 +18,7 @@ tags:
 links:
 - http://donsbot.wordpress.com/
 podcast:
-  file: http://feeds.soundcloud.com/stream/111776994-haskellcast-002-don-stewart-on-real-world-haskell.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-002.mp3
   length: 1:06:59
   filesize: 32184315
 youtube: 4YfkwfZ7AV4

@@ -31,7 +31,7 @@ links:
 - https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study
 - http://www.computingatschool.org.uk/
 podcast:
-  file: http://feeds.soundcloud.com/stream/117465203-haskellcast-003-simon-peyton-jones-on-ghc.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-003.mp3
   length: 1:04:37
   filesize: 31048093
 guests:

@@ -26,7 +26,7 @@ links:
 - https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html
 - http://nixos.org/
 podcast:
-  file: http://feeds.soundcloud.com/stream/159669156-haskellcast-the-haskell-cast-8-ollie.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-008.mp3
   length: 1:06:37
   filesize: 32007378
 guests:

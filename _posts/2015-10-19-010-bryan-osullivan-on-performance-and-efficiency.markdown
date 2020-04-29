@@ -20,7 +20,7 @@ links:
 - http://www.scs.stanford.edu/11au-cs240h/
 - https://github.com/bos/wreq
 podcast:
-  file: http://feeds.soundcloud.com/stream/229056259-haskellcast-the-haskell-cast-10-bryan-osullivan.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-010.mp3
   length: 00:51:34
   filesize: 24780355
 guests:

@@ -21,7 +21,7 @@ links:
 - http://www.haskellforall.com/
 - http://www.snoyman.com/
 podcast:
-  file: http://feeds.soundcloud.com/stream/137515344-haskellcast-the-haskell-cast-6-gabriel.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-006.mp3
   length: 1:02:24
   filesize: 29985528
 youtube: Qn2Oc4vWoGg

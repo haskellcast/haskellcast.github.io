@@ -19,7 +19,7 @@ links:
 - http://chimera.labs.oreilly.com/books/1230000000929
 - https://ghc.haskell.org/trac/haskell-prime/
 podcast:
-  file: http://feeds.soundcloud.com/stream/121753967-haskellcast-the-haskell-cast-4-simon.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-004.mp3
   length: 1:06:43
   filesize: 32048969
 youtube: 73B1uc3xkvo

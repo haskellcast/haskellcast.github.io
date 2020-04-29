@@ -26,7 +26,7 @@ links:
 - https://github.com/conal/talk-2014-bayhac-denotational-design/blob/master/README.md
 - http://conal.net/papers/type-class-morphisms/
 podcast:
-  file: http://feeds.soundcloud.com/stream/181527695-haskellcast-the-haskell-cast-9-conal.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-009.mp3
   length: 1:02:32
   filesize: 30047151
 guests:

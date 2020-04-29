@@ -20,7 +20,7 @@ links:
 - http://www.haskell.org/haskellwiki/Typeclassopedia
 - http://www.seas.upenn.edu/~cis194/lectures.html
 podcast:
-  file: http://feeds.soundcloud.com/stream/130800355-haskellcast-the-haskell-cast-5-brent.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-005.mp3
   length: 0:59:42
   filesize: 28685030
 youtube: O3EjNRgypXg

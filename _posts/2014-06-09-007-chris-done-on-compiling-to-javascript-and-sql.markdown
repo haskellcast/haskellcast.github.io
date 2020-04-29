@@ -25,7 +25,7 @@ links:
 - http://repetae.net/computer/jhc/
 - http://haste-lang.org/
 podcast:
-  file: http://feeds.soundcloud.com/stream/153542787-haskellcast-the-haskell-cast-7-chris.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-007.mp3
   length: 1:05:16
   filesize: 31354320
 youtube: 7dzt0AewfQ4

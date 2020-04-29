@@ -19,7 +19,7 @@ links:
 - http://www.youtube.com/user/edwardkmett
 - http://comonad.com/
 podcast:
-  file: http://feeds.soundcloud.com/stream/111774970-haskellcast-001-edward-kmett-on-lenses.mp3
+  file: https://s3.amazonaws.com/files.haskellcast.com/haskellcast-001.mp3
   length: 1:04:08
   filesize: 30815754
 youtube: 6GNDzrgFhGM
